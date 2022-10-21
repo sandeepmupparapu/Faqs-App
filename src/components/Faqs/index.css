@@ -1,0 +1,57 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.app-container {
+  background-color: #f1f5f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 550px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  border-style: solid;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 25px;
+}
+@media screen and (min-width: 768px) {
+  .faqs-container {
+    width: 90%;
+    max-width: 1149px;
+    padding: 32px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #cb8805;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 56px;
+  }
+}
+.faqs-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  .faqs-list {
+    width: 90%;
+  }
+}
